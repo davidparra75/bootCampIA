@@ -9,6 +9,8 @@ pip install "libreria"
 ## Crear un entorno virtual
 python -m venv .env
 env\scripts\activate
+### Como desactivar el entorno virtual
+deactivate
 
 # Estructura de datos en pandas
 | Tipo      | Contenido                                     |
