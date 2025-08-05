@@ -1,8 +1,15 @@
+# Introducción Pandas
+Python 3.13.5
+```
 import pandas as pd
-#creacion objeto series
+#creacion de objeto Serie
 s = pd.Series([2,4,6,8,10])
 print(s)
 
+```
+
+# creacion de un objeto serie inicializando con un diccionario
+```
 #creacion de un objeto serie inicializando con un diccionario de python
 altura = {"Santiago":180, "Marcelo":172, "Luis":174, "Alejandra":160}
 s = pd.Series(altura)
@@ -18,3 +25,4 @@ print(s)
 #creacion de un objeto series inicializandoo con un escalar
 s = pd.Series(34,["test1","test2","test3"])
 print(s)
+```
