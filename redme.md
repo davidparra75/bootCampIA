@@ -7,8 +7,11 @@ pip install "libreria"
 
 
 ## Crear un entorno virtual
-python -m venv .env
+python -m venv .venv
 env\scripts\activate
+### Si no activa
+set-ExecutionPolicy Unrestricted
+Y escribir (S)
 ### Como desactivar el entorno virtual
 deactivate
 
@@ -28,3 +31,7 @@ print(s)
 ```
 manejo de git
 >git init
+
+## recuperar librerias 
+con env ejecutando aplicamos:
+pip install -r requirements.txt
