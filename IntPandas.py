@@ -69,3 +69,8 @@ print(df)
 df_copy = df.copy()
 df_mod = df_copy.assign(mascotas=[1,3,])
 print(df_mod) 
+
+#eliminar una columna
+del df_mod["peso"]
+print(df_mod)
+
