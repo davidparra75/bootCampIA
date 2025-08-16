@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    padding: 40px;
+    
+}
+ form{
+    background-color: white;
+    border-radius: 12px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(0, 0,0.1);
+ }
+ 
+ h2{
+    text-align: center;
+    color: rgb(102, 83, 119);
+ }
+ 
+ input, select{
+    width: 90%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 10px; */
+    border: 1px solid;
+    border-radius: 6px;
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 1); */
+ }
+ label{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ input[type="submit"]{
+    background-color: rgb(11, 95, 144);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+ }
+input[type="submit"]:hover{
+    background-color: rgb(92, 133, 144);
+}
+
+.container{
+border-radius: 12px;
+width: 400px;
+margin: auto;
+background-color: aliceblue;
+}
+
+.container h3{
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.container p{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.container a{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgb(11, 95, 144);
+    color: white;
+    padding: 10px 0;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: background 0.2s;
+}
+
+.container a:hover{ 
+    background-color: aquamarine;
+}
